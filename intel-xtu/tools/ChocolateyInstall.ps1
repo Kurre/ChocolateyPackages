@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
 $packageName    = 'intel-xtu'
 $toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-$url            = 'https://downloadmirror.intel.com/24075/eng/XTUSetup.exe'
-$checksum       = 'F856DBC345BDE3ADA5253F7AC0EF2711EDFBB89880B174767F25371FFA668DD4'
+$url            = 'https://downloadmirror.intel.com/29183/eng/XTUSetup.exe'
+$checksum       = '7CC2ED8102602FB357AEEF9E9FA7785B8F5F548244E4158C0306B559FD08859C'
 
 if (!(Get-Is64))
    {
